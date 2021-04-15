@@ -8,7 +8,7 @@ import datetime
 weeks = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
 today = datetime.datetime.today()
 name = weeks[today.weekday()]+"-"+str(today.day).zfill(2)+"-"+str(today.month).zfill(2)+"-"+str(today.year)[2:]
-logging.basicConfig(level=logging.DEBUG, filename="../logs/"+name+".tsv", format='%(asctime)s	%(levelname)s	%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+logging.basicConfig(level=logging.DEBUG, filename="logs/"+name+".tsv", format='%(asctime)s	%(levelname)s	%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 #logging.addLevelName(level=logging.info,levelName="GPUusage")
 
 def info(information,debug=False):

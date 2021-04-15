@@ -1,5 +1,7 @@
-# Files
+# Files, logs and dataset
 relatedWorks/
+logs/
+dataset/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
